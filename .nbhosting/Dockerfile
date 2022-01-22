@@ -3,3 +3,4 @@
 pip install librosa
 pip install resampy
 pip install wavio
+pip install sounddevice
