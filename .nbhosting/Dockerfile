@@ -9,3 +9,5 @@ RUN pip install librosa
 RUN pip install resampy
 RUN pip install wavio
 RUN pip install sounddevice
+
+RUN pip install PyAudio
