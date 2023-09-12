@@ -56,16 +56,16 @@ Tu pourras vérifier que ton programme fonctionne pour le 20ème mois, mois pour
 <!-- #region -->
 On considère l'équation $r^2 = r + 1$.
 
-### 1) Trouver les racines de cette équation.
+### 1) Trouver les racines de cette équation. {-}
 
 
 On admet le résultat suivant : 
 
 On consdière une suite $(u_n)_{n \in \mathbb{N}}$ définie par récurrence par $u_{n+2} = u_{n+1} + u_n$. Alors la formule explicite de la suite $(u_n)_{n \in \mathbb{N}}$ est : \begin{equation*} u_n = \alpha \cdot \phi^n + \beta \cdot \phi'^n \end{equation*} où $\phi$ et $\phi'$ sont les deux racines réelles de l'équation $r^2 = r + 1$, et $\alpha$ et $\beta$ sont des constantes.
 
-### 2) Calculer le terme général $F_n$ de la suite de Fibonacci en vous aidant de ce résultat
+### 2) Calculer le terme général $F_n$ de la suite de Fibonacci en vous aidant de ce résultat {-}
 
-### 3) Ecrire un algorithme permettant de calculer le n-ième terme de la suite de Fibonacci en s'aidant de la formule trouvée dans la question précédente
+### 3) Ecrire un algorithme permettant de calculer le n-ième terme de la suite de Fibonacci en s'aidant de la formule trouvée dans la question précédente {-}
 <!-- #endregion -->
 
 ```python
@@ -91,7 +91,7 @@ Pour rappel, nous cherchons le **nombre de lapins** présents le 20ème mois qui
 
 ```
 
-### 4) Tester le programme avec plusieurs valeurs de n et comparer avec les résultats donnés par le programme de l'exercice 1}
+### 4) Tester le programme avec plusieurs valeurs de n et comparer avec les résultats donnés par le programme de l'exercice 1} {-}
 N'hésite pas à tester avec plusieurs valeurs de $n$, sans toutefois dépasser $n=1500$. D'ailleurs, question bonus : que se passe-t-il pour des valeurs de $n$ supérieures à 1500 par exemple ?
 
 ```python
