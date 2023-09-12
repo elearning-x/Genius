@@ -23,7 +23,7 @@ Tu peux naviguer librement dans ce notebook en suivant les instructions. N'hési
 <!-- #endregion -->
 
 <!-- #region id="zzkDAekqAwdh" -->
-### I. Croissance géométrique d'une population
+## I. Croissance géométrique d'une population
 <!-- #endregion -->
 
 <!-- #region id="okGM6EP6J8Sf" -->
@@ -101,7 +101,7 @@ widgets.interact_manual(croissance_geometrique, p0=p0, q=q, N=N)
 ```
 
 <!-- #region id="SH-uNONCAwdq" -->
-### II. Croissance géométrique limitée par la croissance arithmétique des ressources
+## II. Croissance géométrique limitée par la croissance arithmétique des ressources
 <!-- #endregion -->
 
 <!-- #region id="VJXZhZhemwyw" -->
@@ -190,7 +190,7 @@ widgets.interact(croissance_ressources, p0=p0, q=q, r0=r0, a=a, N=N)
 ```
 
 <!-- #region id="IZ4KoyVnAwds" -->
-### III. Exercice pratique
+## III. Exercice pratique
 
 On peut tester notre nouveau modèle sur des données réelles, en l'occurrence la démographie française entre 1945 et 2015. Le but de l'exercice suivant est de trouver les paramètres $c, a_0$ et $r_0$ qui permettent de simuler le plus précisement possible l'évolution de la population française. Essayez de modifier ces paramètres via les curseurs pour obtenir une courbe qui colle aux points de données rouges. On précise que $c$ est le taux de croissance de la population exprimé en pourcentage. Ainsi, $q=1+\frac{c}{100}$. \
 <span style="color:green">Remarque : le code ci-dessous est beaucoup plus avancé. Tu peux ne pas tout comprendre, ce n'est pas grave. L'important ici est de pouvoir utiliser la simulation pour estimer les paramètres d'évolution d'une population. Tu pourras relire ce code un peu plus tard lorsque tu auras progressé en Python !</span>
@@ -245,7 +245,7 @@ Joue avec les paramètres jusqu'à ce que les 2 courbes soient à peu près supe
 <!-- #endregion -->
 
 <!-- #region id="NsjbPW9kAwdt" -->
-### IV. Variante du modèle de Malthus : ressources non périssables
+## IV. Variante du modèle de Malthus : ressources non périssables
 
 Jusqu'à maintenant, on a implicitement supposé que les ressources non utilisées sur une année n'étaient pas utilisables pour l'année suivante, mais on peut tout à fait faire l'hypothèse que les ressources sont non périssables et qu'elles peuvent se conserver ! 
 
@@ -388,3 +388,7 @@ On remarque qu'avec ce modèle, la population atteint un niveau d'équilibre ! C
 
 Question bonus : en supposant vrai le fait que la suite $p_n$ converge vers une limite $l$ et qu'on a la relation $ p_{n+1}=q \ p_n-\frac{m}{1000} \ p_{n}^2$, peut-on trouver une formule pour $l$ en fonction de $q$ et de $m$ ?
 <!-- #endregion -->
+
+```python
+
+```
