@@ -629,11 +629,3 @@ anim = animation.FuncAnimation(fig, func, frames = nSeconds * fps,
                                interval = 1000 / fps) # in ms
 plt.close()
 ```
-
-```python
-
-```
-
-```python
-
-```
