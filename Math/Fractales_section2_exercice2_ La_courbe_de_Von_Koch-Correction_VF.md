@@ -24,7 +24,7 @@ L'objectif de cet exercice est de vous faire coder l'une des fractales les plus 
 Une brève illustration des trois premières itérations de la courbe :
 
 
-![media/math/Von_koch-2.png](attachment:Von_koch-2.png)
+<img src="media/math/Von_koch-2.png">
 
 La totalité de l'exercice se fera dans ce notebook.
 <!-- #endregion -->
@@ -144,7 +144,7 @@ On se placera dans un premier temps uniquement dans le cas où |indice2 - indice
 
 Regardons comment placer les points à l'aide de la figure ci-dessous.
 
-![media/math/proportion_von_koch-6.png](attachment:proportion_von_koch-6.png)
+<img src="media/math/proportion_von_koch-6.png">
 
 Le premier et le troisième point sont faciles à placer. Ils se situent sur l'axe entre les deux extrémité divisant le segment en rapport sous-segments de même longueur.
 
@@ -583,6 +583,6 @@ plt.show()
 #### Réponse
 Le temps mis par l’algorithme est exponentiel en fonction du nombre d’itérations (la fonction exponentielle est très fortement croissante.). En effet, chaque itération ajoute 3 avancées du curseur de Turtle ou 3 appels à l’itération suivante et trois rotation du curseur par étape. On peut donc considérer que chaque itération se fait à temps constant + les éventuels appels aux itérations suivantes. Le temps de calcul est donc à peu de chose près proportionnel au nombre d’appels à la fonction placer_sommets. Regardons ce qu’il se passe si n = 3.
 
-![media/math/Schema_iterations.PNG](attachment:Schema_iterations.PNG)
+<img src="media/math/Schema_iterations.png">
 
 La première ligne correspond à l’itération 1 qui représente le premier appel à la fonction. Cette ligne compte donc 4⁰ appel et génère 4 appels, un pour chaque segments. La ligne suivante compte donc 4¹ appels. Chacun de ces appels engendre 4 appels, la ligne suivante compte donc 4² appels. Il y a donc au total $4⁰ + 4¹ + 4² = \frac{1 - 4³}{1 - 4}= 21 $ appels (cette formule est celle de la somme d’une suite géométrique). À une constante près, le nombre d’appels est donc proportionnel à 4³ pour 3 itérations… On pourrait refaire le même calcul quel que soit le nombre d’itérations et on trouverait toujours un nombre d’appels proportionnel à 4 puissance le nombre d’itération. Comme on considère que le temps passé est proportionnel au nombre d’appels, on dit alors que le temps de calcul est exponentiel en fonction du nombre d’itérations.

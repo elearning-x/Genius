@@ -16,7 +16,7 @@ jupyter:
 
 ## Objectif
 L’objectif de cet exercice est de représenter graphiquement des coefficients binomiaux disposés de la manière suivante :
-![media/math/Coeff_binomiaux_text.png](attachment:Coeff_binomiaux_text.png)
+<img src="media/math/Coeff_binomiaux_text.png">
 
 
 
@@ -24,13 +24,13 @@ L’objectif de cet exercice est de représenter graphiquement des coefficients 
 en remplaçant chaque coefficient binomial par un carré de couleur associé à sa valeur. La figure obtenue étant sur un fond d’une couleur donnée. 
 
 On peut par exemple choisir le code couleur suivant : si la valeur du coefficient est supérieure ou égale à deux, la case est verte, sinon la case est jaune. La couleur du fond est noire. Voici la figure obtenue :
-![media/math/binom_coul_1.png](attachment:binom_coul_1.png)
+<img src="media/math/binom_coul_1.png">
 
 <!-- #region -->
 Posons N la plus grande valeur de n telle que l’on calcule k parmi n pour tout k entre 0 et n. La figure ci-dessus représente le cas N=2. Avec la même règle de représentation, nous obtenons la figure suivante pour N = 8 :
 
 
-![media/math/coeff_bin_2.png](attachment:coeff_bin_2.png)
+<img src="media/math/coeff_bin_2.png">
 <!-- #endregion -->
 
 <!-- #region -->
