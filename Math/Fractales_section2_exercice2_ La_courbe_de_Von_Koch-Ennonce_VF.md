@@ -23,8 +23,6 @@ L'objectif de cet exercice est de vous faire coder l'une des fractales les plus 
 
 Une brève illustration des trois premières itérations de la courbe :
 
-
-![media/math/Von_koch-2.png](attachment:Von_koch-2.png)
 <img src="media/math/Von_koch-2.png">
 
 La totalité de l'exercice se fera dans ce notebook.
@@ -142,7 +140,8 @@ On se placera dans un premier temps uniquement dans le cas où |indice2 - indice
 
 Regardons comment placer les points à l'aide de la figure ci-dessous.
 
-![media/math/proportion_von_koch-6.png](attachment:proportion_von_koch-6.png)
+<img src="media/math/proportion_von_koch-6.png">
+
 
 Le premier et le troisième point sont faciles à placer. Ils se situent sur l'axe entre les deux extrémité divisant le segment en rapport sous-segments de même longueur.
 
