@@ -25,6 +25,7 @@ Une brève illustration des trois premières itérations de la courbe :
 
 
 ![media/math/Von_koch-2.png](attachment:Von_koch-2.png)
+<img src="media/math/Von_koch-2.png">
 
 La totalité de l'exercice se fera dans ce notebook.
 <!-- #endregion -->
