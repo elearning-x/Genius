@@ -31,6 +31,8 @@ RUN true \
  && pip install nbautoeval \
     # auto-illustrated examples \
  && pip install ipythontutor \
+
+ && pip install ipywidgets \
  
  && apt-get update \
  && apt-get install -y gcc portaudio19-dev python3-pyaudio \
