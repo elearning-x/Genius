@@ -1,3 +1,17 @@
+# #Genius
 static-mappings:
   - source: media
     destination: media
+
+
+tracks:
+  - name: "#Genius"
+    id: genius
+    description: "Mooc #Genius"
+    sections:
+    - name: "Math"
+      notebooks:
+      - Math/*.ipynb
+    - name: "Physique"
+      notebooks:
+      - Physique/*.ipynb
