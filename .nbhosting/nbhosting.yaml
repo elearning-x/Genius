@@ -5,13 +5,32 @@ static-mappings:
 
 
 tracks:
-  - name: "#Genius"
-    id: genius
-    description: "Mooc #Genius"
+  - name: "Math"
+    id: math
+    description: "Mooc #Genius Math"
     sections:
-    - name: "Math"
+    - name: "Dynamique des populations"
       notebooks:
-      - Math/*.ipynb
-    - name: "Physique"
+      - Math/Dynamique*.*
+    - name: "Géométrie fractale"
       notebooks:
-      - Physique/*.ipynb
+      - Math/Fractal*.*
+      - Math/*aliasing*.*
+    - name: "Boîte-à-outils : Les suites"
+      notebooks:
+      - Math/Outil*.*
+    - name: "Paradoxe de Bertrand"
+      notebooks:
+      - Math/Paradox*.*
+  - name: "Physique"
+    id: physique
+    description: "Mooc #Genius Physique"
+    sections:
+    - name: "Systèmes ponctuels - Mécanique du point"
+      notebooks:
+      - Physique/Kepler*.ipynb
+      - Physique/Kepler*.md
+    - name: "Systèmes ondulatoires"
+      notebooks:
+      - Physique/traitement*.ipynb
+      - Physique/traitement*.md
